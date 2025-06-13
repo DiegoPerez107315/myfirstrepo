@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset ="utf-8" />
+        <title> !! MOKEPON !!</title>
+        <link rel="stylesheet" href="./styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body> 
+        <section id="eleccion-mokepon"> 
+            <h1  class="title">⚔🔥🌱  MOKEPON 🌱💦 ⚔</h1>
+            <h2 class="subtitle">Elige tu pokemon:</h2>  
+            <div id="conteiner-cards" class="cards">   
+
+            </div> 
+            
+            <button id="actual-button-pet">Select</button>
+
+        </section>
+        <section id="view-map">
+            <h1 class="title">🚶‍♂️Walk with your pet through the map 🚶‍♂️</h1>
+            <div id="map-and-keys">
+            <canvas id="map" ></canvas>
+            <div id="keys">
+            <button id="left-button" onmouseup="stopMovement()" onmousedown="moveLeft()" onmouseout="stopMovement()" ontouchstart="moveLeft()" ontouchend="stopMovement()" oncontextmenu="return false">Left</button>
+            <button id="up-button" onmouseup="stopMovement()" onmousedown="moveUp()" onmouseout="stopMovement()" ontouchstart="moveUp()" ontouchend="stopMovement()" oncontextmenu="return false">Up</button>
+            <button id="down-button" onmouseup="stopMovement()" onmousedown="moveDown()" onmouseout="stopMovement()" ontouchstart="moveDown()" ontouchend="stopMovement()" oncontextmenu="return false">Down</button>
+            <button id="right-button" onmouseup="stopMovement()" onmousedown="moveRight()" onmouseout="stopMovement()" ontouchstart="moveRight()" ontouchend="stopMovement()" oncontextmenu="return false">Right</button>
+                </div>
+            </div>
+
+        </section>
+            
+        <section id="eleccion-poder">
+            <h1  class="title">⚔🔥🌱  MOKEPON 🌱💦 ⚔</h1>
+
+            <h2 class="subtitle" id="attack-subtitle">Elige tu attack ⚔:</h2>
+                        
+            <div id="attack-buttons" >
+
+            </div>
+
+            <div class="individual-results">
+                <section id="messages">
+                    <p id="resultado">GOOD LUCK!!</p>
+                </section> 
+
+                <section id="reiniciar">
+                </section>
+            </div>
+             
+            <div class="attack-info">
+                <div id="player-image">
+                    <!-- height: 334px; -->
+                    <!-- <img src="./images/Sharkboy.png" alt="Sharkboy" id="player-Sharkboy" style="display: none;">
+                    <img src="./images/Dirtdog.png" alt="Dirtdog" id="player-Dirtdog" style="display: none;">
+                    <img src="./images/Lavagirl.png" alt="Lavagirl" id="player-Lavagirl" style="display: none;">
+                    <img src="./images/Sharklava.png" alt="Sharklava" id="player-Sharklava" style="display: none;">
+                    <img src="./images/Dirtshark.png" alt="Dirtshark" id="player-Dirtshark" style="display: none;">
+                    <img src="./images/Lavadog.png" alt="Lavadog" id="player-Lavadog" style="display: none;"> -->
+                </div>
+                <div id ="player-info">
+                <p id="player-wins"></p>
+                <p id="player-pet"></p>
+                </div>
+                <div id="versus">VS</div>
+                <div id ="enemy-info">
+                <p id="enemy-wins"></p>
+                <p id="enemy-pet"></p>
+                </div>
+                  <div id="enemy-image">
+                    <!-- <img src="./images/Sharkboy.png" alt="Sharkboy" id="enemy-Sharkboy" style="display: none;">
+                    <img src="./images/Dirtdog.png" alt="Dirtdog" id="enemy-Dirtdog" style="display: none;">
+                    <img src="./images/Lavagirl.png" alt="Lavagirl" id="enemy-Lavagirl" style="display: none;">
+                    <img src="./images/Sharklava.png" alt="Sharklava" id="enemy-Sharklava" style="display: none;">
+                    <img src="./images/Dirtshark.png" alt="Dirtshark" id="enemy-Dirtshark" style="display: none;">
+                    <img src="./images/Lavadog.png" alt="Lavadog" id="enemy-Lavadog" style="display: none;"> -->
+                </div>
+            </div>
+            <div id="attack-results"> 
+            </div>
+
+        </section>
+        <script src="./codigomokepon.js"> </script>
+    </body>    
+</html>
+
+
+
+
+
+
