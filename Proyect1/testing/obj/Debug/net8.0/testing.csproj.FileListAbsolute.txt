@@ -1,0 +1,15 @@
+/workspaces/myfirstrepo2/Proyect1/testing/bin/Debug/net8.0/testing
+/workspaces/myfirstrepo2/Proyect1/testing/bin/Debug/net8.0/testing.deps.json
+/workspaces/myfirstrepo2/Proyect1/testing/bin/Debug/net8.0/testing.runtimeconfig.json
+/workspaces/myfirstrepo2/Proyect1/testing/bin/Debug/net8.0/testing.dll
+/workspaces/myfirstrepo2/Proyect1/testing/bin/Debug/net8.0/testing.pdb
+/workspaces/myfirstrepo2/Proyect1/testing/obj/Debug/net8.0/testing.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/myfirstrepo2/Proyect1/testing/obj/Debug/net8.0/testing.AssemblyInfoInputs.cache
+/workspaces/myfirstrepo2/Proyect1/testing/obj/Debug/net8.0/testing.AssemblyInfo.cs
+/workspaces/myfirstrepo2/Proyect1/testing/obj/Debug/net8.0/testing.csproj.CoreCompileInputs.cache
+/workspaces/myfirstrepo2/Proyect1/testing/obj/Debug/net8.0/testing.sourcelink.json
+/workspaces/myfirstrepo2/Proyect1/testing/obj/Debug/net8.0/testing.dll
+/workspaces/myfirstrepo2/Proyect1/testing/obj/Debug/net8.0/refint/testing.dll
+/workspaces/myfirstrepo2/Proyect1/testing/obj/Debug/net8.0/testing.pdb
+/workspaces/myfirstrepo2/Proyect1/testing/obj/Debug/net8.0/testing.genruntimeconfig.cache
+/workspaces/myfirstrepo2/Proyect1/testing/obj/Debug/net8.0/ref/testing.dll
